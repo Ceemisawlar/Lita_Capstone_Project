@@ -23,7 +23,7 @@ Column Names and Descriptions
 ### Tools Used
 - Microsoft Excel for data cleaning,Analysis and Visualisation 
 - SQL - Structured query Language for querying data for building of Portfolio in Github
-- Power Bi-
+- Power Bi - For Dashboard and Visualization 
 
 
 ### STATISTICAL ANALYSIS ON THE DATA

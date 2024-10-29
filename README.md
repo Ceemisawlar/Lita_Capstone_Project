@@ -20,6 +20,11 @@ Column Names and Descriptions
 
 7. UnitPrice (Decimal): The price of a single unit of the product.
 
+### Tools Used
+- Microsoft Excel for data cleaning,Analysis and Visualisation 
+- SQL - Structured query Language for querying data for building of Portfolio in Github
+- Power Bi-
+
 
 ### STATISTICAL ANALYSIS ON THE DATA
 ### METHODOLOGY

@@ -65,6 +65,20 @@ total_revenue DESC;
 ![image](https://github.com/user-attachments/assets/3325885b-53a1-4c2a-98b6-d5f6712ae011)
 
 - Monthly sales totals for the current year
+
+  SELECT DATENAME(month, orderdate) AS month_name,
+SUM(cast(quantity as int) * cast(unitprice as decimal(10,0))) AS monthly_sales
+FROM 
+LITAcustomers
+WHERE 
+YEAR(orderdate) = YEAR(GETDATE())
+GROUP BY 
+DATENAME(month, orderdate)
+ORDER BY 
+month_name DESC
+
+![image](https://github.com/user-attachments/assets/29a2fb88-5d6f-4a40-8c72-710bbea6d5a6)
+
 - Top 5 customers by total purchase amount
 - Percentage of total sales contributed by each region
 - Products with no sales in the last quarter

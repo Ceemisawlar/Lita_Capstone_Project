@@ -80,6 +80,18 @@ month_name DESC
 ![image](https://github.com/user-attachments/assets/29a2fb88-5d6f-4a40-8c72-710bbea6d5a6)
 
 - Top 5 customers by total purchase amount
+
+  SELECT top 5 Customer_Id,
+SUM(cast(quantity as int) * cast(unitprice as decimal(10,0))) AS total_purchase_amount
+FROM 
+    LITAcustomers
+GROUP BY 
+    Customer_Id
+ORDER BY 
+    total_purchase_amount DESC
+
+![image](https://github.com/user-attachments/assets/11974d0f-68dc-4a2e-8164-d222d2ca6edc)
+
 - Percentage of total sales contributed by each region
 - Products with no sales in the last quarter
 

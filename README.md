@@ -93,6 +93,19 @@ ORDER BY
 ![image](https://github.com/user-attachments/assets/11974d0f-68dc-4a2e-8164-d222d2ca6edc)
 
 - Percentage of total sales contributed by each region
+
+  SELECT region,
+SUM(cast(quantity as int) * cast(unitprice as decimal(10,0))) AS regional_sales,
+SUM(cast(quantity as int) * cast(unitprice as decimal(10,0))) / (SELECT SUM(cast(quantity as int) * cast(unitprice as decimal(10,0))) FROM LITAcustomers) * 100 AS percentage_of_total_sales
+FROM 
+Litacustomers
+GROUP BY 
+region
+ORDER BY 
+regional_sales DESC;
+
+![image](https://github.com/user-attachments/assets/9ecc70c7-96e9-4343-ae67-124dd9e9bd1e)
+
 - Products with no sales in the last quarter
 
 ### METHODOLOGY

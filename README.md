@@ -39,6 +39,18 @@ Num_sales_transaction desc
 
 
 - Highest-selling product by total sales value
+
+  SELECT top 1 product,
+SUM(cast(quantity as int) * cast(unitprice as decimal)) AS total_sales
+FROM 
+LITAcustomers
+GROUP BY 
+product
+ORDER BY 
+total_sales DESC
+
+![image](https://github.com/user-attachments/assets/d6f01bf0-0995-4a98-ad09-ce8a0dae60a9)
+
 - Total revenue per product
 - Monthly sales totals for the current year
 - Top 5 customers by total purchase amount

@@ -29,6 +29,15 @@ Column Names and Descriptions
 ### STATISTICAL ANALYSIS ON THE DATA
 - Total sales for each prroduct category
 - Number of sales category in each region
+  
+  select region, count(orderid) as Num_sales_transaction
+from LITAcustomers group by region order by
+Num_sales_transaction desc
+
+
+![image](https://github.com/user-attachments/assets/9c535931-ef4e-4f1d-917e-2ccc8b9b7f00)
+
+
 - Highest-selling product by total sales value
 - Total revenue per product
 - Monthly sales totals for the current year

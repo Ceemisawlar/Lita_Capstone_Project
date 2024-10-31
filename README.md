@@ -52,6 +52,18 @@ total_sales DESC
 ![image](https://github.com/user-attachments/assets/d6f01bf0-0995-4a98-ad09-ce8a0dae60a9)
 
 - Total revenue per product
+
+  SELECT product,
+SUM(Cast(quantity as int) * cast(unitprice as decimal)) AS total_revenue
+FROM 
+LITAcustomers
+GROUP BY 
+product
+ORDER BY 
+total_revenue DESC;
+
+![image](https://github.com/user-attachments/assets/3325885b-53a1-4c2a-98b6-d5f6712ae011)
+
 - Monthly sales totals for the current year
 - Top 5 customers by total purchase amount
 - Percentage of total sales contributed by each region

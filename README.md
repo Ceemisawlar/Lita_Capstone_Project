@@ -108,6 +108,24 @@ regional_sales DESC;
 
 - Products with no sales in the last quarter
 
+  SELECT 
+DISTINCT o.product
+FROM 
+LITAcustomers o
+WHERE 
+o.product NOT IN (
+SELECT 
+o2.product
+FROM 
+LITAcustomers o2
+ WHERE 
+o2.orderdate >= DATEADD(quarter, -1, GETDATE())
+    )
+
+  ![image](https://github.com/user-attachments/assets/48d7f916-febe-44df-886b-93015eb1c0d6)
+
+
+
 ### METHODOLOGY
 ### DATA MANIPULATION 
 ### INSIGHTS

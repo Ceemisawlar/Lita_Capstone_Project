@@ -27,6 +27,15 @@ Column Names and Descriptions
 
 
 ### STATISTICAL ANALYSIS ON THE DATA
+- Total sales for each prroduct category
+- Number of sales category in each region
+- Highest-selling product by total sales value
+- Total revenue per product
+- Monthly sales totals for the current year
+- Top 5 customers by total purchase amount
+- Percentage of total sales contributed by each region
+- Products with no sales in the last quarter
+
 ### METHODOLOGY
 ### DATA MANIPULATION 
 ### INSIGHTS

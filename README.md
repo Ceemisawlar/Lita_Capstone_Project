@@ -195,6 +195,9 @@ Exploratory Data Analysis (EDA) examines and visualizes data to understand its m
 
 ### DATA Visualisation
 
+![image](https://github.com/user-attachments/assets/cf4b735d-fef4-4ea0-a25a-1c0de86346f9)
+
+
 
 
 ### INSIGHTS

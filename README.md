@@ -151,6 +151,8 @@ o2.orderdate >= DATEADD(quarter, -1, GETDATE())
 
   ![image](https://github.com/user-attachments/assets/48d7f916-febe-44df-886b-93015eb1c0d6)
 
+### STATISTICAL ANALYSIS ON SALES DATA
+
 
 
 ### Exploratory Data Analysis

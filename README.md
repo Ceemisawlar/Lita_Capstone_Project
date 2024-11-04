@@ -41,7 +41,16 @@ Column Names and Descriptions
 ### Tools Used
 - Microsoft Excel for data cleaning,Analysis and Visualisation 
 - SQL - Structured query Language for querying data for building of Portfolio in Github
-- Power Bi - For Data cleaning and Visualization 
+- Power Bi - For Data cleaning and Visualization
+
+### Data Cleaning
+This is the first stage for any data analysis project which includes 
+
+* Uploading the data
+
+* Checking for null variables and missing data
+  
+* Data cleaning which includes removing duplicates
 
 
 ### STATISTICAL ANALYSIS ON THE DATA

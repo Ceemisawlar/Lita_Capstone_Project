@@ -2,6 +2,13 @@
 This is where I document my capstone project for the Incubator Hub
 ### Project Title: Sales Analysis
 ### Project Overview
+Project Overview For Sales Data
+
+This dataset contains detailed transactional sales data, offering an in-depth look at customer orders, including product details, regional information, and revenue figures. It is well-suited for analyzing sales trends and regional performance, providing valuable insights into revenue drivers and high-demand products.
+
+Project Overview For Customer Subcription Data
+
+This dataset offers an in-depth view of customer subscription patterns and revenue, allowing insights into the factors driving these patterns and identifying high-demand subscription types across different customers.
 
 ### DATA DESCRIPTION FOR SALES DATA
 Column Names and Descriptions

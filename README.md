@@ -53,7 +53,7 @@ This is the first stage for any data analysis project which includes
 * Data cleaning which includes removing duplicates
 
 
-### STATISTICAL ANALYSIS ON THE DATA
+### STATISTICAL ANALYSIS ON THE CUSTOMER DATA
 - Total sales for each prroduct category
 - Number of sales category in each region
   
@@ -187,6 +187,8 @@ Exploratory Data Analysis (EDA) examines and visualizes data to understand its m
 * Find the top 3 regions by subscription cancellations.
 
 * Find the total number of active and canceled subscriptions
+
+
 
 
 ### DATA Visualisation

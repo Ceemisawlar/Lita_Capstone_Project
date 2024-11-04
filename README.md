@@ -23,7 +23,7 @@ Column Names and Descriptions
 ### Tools Used
 - Microsoft Excel for data cleaning,Analysis and Visualisation 
 - SQL - Structured query Language for querying data for building of Portfolio in Github
-- Power Bi - For Dashboard and Visualization 
+- Power Bi - For Data cleaning and Visualization 
 
 
 ### STATISTICAL ANALYSIS ON THE DATA
@@ -126,7 +126,17 @@ o2.orderdate >= DATEADD(quarter, -1, GETDATE())
 
 
 
-### METHODOLOGY
+### Exploratory Data Analysis
+Exploratory Data Analysis (EDA) examines and visualizes data to understand its main characteristics and answer meaniful questions
+
+For sales Data using Excel the following insights where gotten
+1)Average sales was retrieved using the in built formula in excel 
+2)Total sales
+3)Sum of quantity of product
+4)Month by sum of sales
+5)Total sales by region
+6)Sum of sales by each quarter
+
 ### DATA MANIPULATION 
 ### INSIGHTS
 ### CONCLUSION

@@ -131,10 +131,15 @@ Exploratory Data Analysis (EDA) examines and visualizes data to understand its m
 
 For sales Data using Excel the following insights where gotten
 1)Average sales was retrieved using the in built formula in excel 
+
 2)Total sales
+
 3)Sum of quantity of product
+
 4)Month by sum of sales
+
 5)Total sales by region
+
 6)Sum of sales by each quarter
 
 ### DATA MANIPULATION 

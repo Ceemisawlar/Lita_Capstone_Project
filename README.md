@@ -142,6 +142,9 @@ For sales Data using Excel the following insights where gotten
 
 6)Sum of sales by each quarter
 
-### DATA MANIPULATION 
+### DATA Visualisation
+
+
+
 ### INSIGHTS
 ### CONCLUSION

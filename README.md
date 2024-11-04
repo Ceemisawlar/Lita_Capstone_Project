@@ -172,6 +172,15 @@ Exploratory Data Analysis (EDA) examines and visualizes data to understand its m
 
 ### Customer Data
 
+* Retrieve the total number of customers from each region.
+o Find the most popular subscription type by the number of customers.
+o Find customers who canceled their subscription within 6 months.
+o Calculate the average subscription duration for all customers.
+o Find customers with subscriptions longer than 12 months.
+o Calculate total revenue by subscription type.
+o Find the top 3 regions by subscription cancellations.
+o Find the total number of active and canceled subscriptions
+
 
 ### DATA Visualisation
 

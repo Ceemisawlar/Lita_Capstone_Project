@@ -129,7 +129,8 @@ o2.orderdate >= DATEADD(quarter, -1, GETDATE())
 ### Exploratory Data Analysis
 Exploratory Data Analysis (EDA) examines and visualizes data to understand its main characteristics and answer meaniful questions
 
-For sales Data using Excel the following insights where gotten
+### For sales Data using Excel the following insights where gotten
+
 1)Average sales was retrieved using the in built formula in excel 
 
 2)Total sales
@@ -141,6 +142,9 @@ For sales Data using Excel the following insights where gotten
 5)Total sales by region
 
 6)Sum of sales by each quarter
+
+### Customer Data
+
 
 ### DATA Visualisation
 

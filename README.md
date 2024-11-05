@@ -214,4 +214,41 @@ Exploratory Data Analysis (EDA) examines and visualizes data to understand its m
 
 
 ### INSIGHTS
+SALES
+
+From the Analysis the following insights was discovered
+
+1)The average sales of product is 211.75% which means that the products didn't do really bad in the market
+
+2) It was also discovered that the top selling product is shoes. 
+
+3) The least selling product is jackets. Which means that customers do not really have needs of jackets so stocking up of this products should be reduced to the bearest minimum to avoid loss.
+
+4)The top performing region is the South with a revenue.  Which implies that supplies of products to the south should be given more attention to be able to make profit.
+
+5) Products supplied to the west should be minimal as the west was the lest performing region. More awareness about products should be advised.
+
+6) February recorded as the month with the highest sales of. This could be because of the weather at that period which makes customers require light wears that make them comfortable and prevent them from heat. 
+
+7) The month with the least sales was December
+
+8) More sales where made in the first quarter
+
+CUSTOMER 
+From the Analysis the following insights was discovered 
+
+1) From the analysis, the total sum of revenue was 41465.
+
+2) The total count of region was 4 (south,east,west,north)
+
+3) The subscription that had the highest customer by revenue was basic. We can conclude from this that most customers went for the cheapest package. 
+
+4) The region with the highest sales is the east with 
+
+5) The top customer by revenue is Mike
+
+6) Customers with the basic package have the most canceled subscription. We can say that they may be low income earners who couldn't afford the subscription rate again. 
+
+7) Quarter one had the highest revenue.
+
 ### CONCLUSION
